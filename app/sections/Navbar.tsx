@@ -53,7 +53,7 @@ const Navbar = () => {
 
   return (
     <header className='sticky top-0 backdrop-blur-sm z-50 shadow-gray-600 bg-gradient-to-r from-[#CB833C]/50 to-[#FF8214]'>
-        <div className='py-3' ref={menuRef}>
+        <div className='py-2' ref={menuRef}>
             <div className="container">
                 <div className='flex items-center justify-between cursor-pointer'>
                     <Link href="/">
