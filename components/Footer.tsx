@@ -46,10 +46,10 @@ const Footer = () => {
                 </nav>
 
                 <div className='flex justify-center gap-6 mt-6 text-mainbg cursor-pointer'>
-                <FaTwitter className='hover:text-black text-lg'/> 
-                <FaInstagram className='hover:text-black text-lg'/>          
-                <FaLinkedin className='hover:text-black text-lg'/>
-                <FaReddit className='hover:text-black text-lg'/>        
+                <a href="https://www.linkedin.com/company/provision-innovations/"><FaTwitter className='hover:text-black text-lg'/></a> 
+                <a href="https://x.com/ProVision_Inn"><FaInstagram className='hover:text-black text-lg'/></a>          
+                <a href="https://www.instagram.com/provision_innovations/"><FaLinkedin className='hover:text-black text-lg'/></a>
+                <a href="https://www.reddit.com/user/provisioninnovations/"><FaReddit className='hover:text-black text-lg'/></a>        
                 </div>
 
                 <p className='mt-6 font-semibold'>&copy; {currentYear}, Pro-Vision Innovations.</p>
