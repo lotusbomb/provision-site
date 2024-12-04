@@ -61,18 +61,18 @@ const Navbar = () => {
                     </Link>
 
                     {menuOpen ? (
-                        <GrClose className='h-[40px] lg:w-[50px] w-[35px] z-10 text-white' onClick={toggleMenu}/>
+                        <GrClose className='h-[40px] lg:w-[50px] w-[35px] text-white z-50' onClick={toggleMenu}/>
                     ) : (
                         <CgMenuRight className='h-[30px] w-[50px] text-white' onClick={toggleMenu}/>
                     )}
 
                     {
                         menuOpen && (
-                            <div className='top-0 shadow-lg leading-10 p-8 absolute lg:right-[9%] right-0 w-[250px] h-screen bg-gradient-to-b from-[#FF8214] to-[#CB833C]/50'>
+                            <div className='top-0 shadow-lg leading-10 p-2 absolute lg:right-[9%] right-0 w-[250px] h-screen bg-gradient-to-b from-[#FF8214] to-[#CB833C]/50 z-40'>
                                 <nav className='pt-[100px]'>
                                     <ul className='my-[50%] lg:mx-[30px]'>
                                         {navMenus.map((menu) => (
-                                            <li key={menu.name} className='mb-[30px]'>
+                                            <li key={menu.name} className='mb-[10px]'>
                                                 <a href={menu.link} className='py-[10px] px-[30px] block uppercase font-semibold hover:text-white hover:font-[800]'>{menu.name}</a>
                                             </li>
                                         ))}
