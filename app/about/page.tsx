@@ -15,7 +15,7 @@ const About = () => {
         <div className=''>
           <div className='absolute flex flex-col z-20 bottom-0 left-0 md:top-[40%] top-[30%] lg:max-w-[900px] max-w-[450px] md:max-w-[600px] container text-center '>
             <h1 className='text-object uppercase md:text-[2rem] text-[1.2rem] font-bold'>About us</h1>
-            <p className='mt-3 tracking-wider'>We are a forward thinking software development company dedicated to creating diverse software products to meet the evolving needs of our customers. The goal remains to transform ideas to reality and empower individuals in a thriving digital world.</p>
+            <p className='mt-3 tracking-wider text-black font-semibold'>We are a forward thinking software development company dedicated to creating diverse software products to meet the evolving needs of our customers. The goal remains to transform ideas to reality and empower individuals in a thriving digital world.</p>
           </div>
           <div className=''>
             <Image src={about} alt='about pic' className='md:h-[800px] h-[650px] object-cover w-screen'/>
