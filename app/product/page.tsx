@@ -1,4 +1,3 @@
-import { GrGamepad } from "react-icons/gr";
 import Footer from '@/components/Footer'
 import Image from "next/image";
 import Navbar from "../sections/Navbar";
