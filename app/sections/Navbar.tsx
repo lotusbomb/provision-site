@@ -57,7 +57,7 @@ const Navbar = () => {
     }, [])
 
   return (
-    <header className='sticky top-0 z-50 shadow-gray-600 mt-4 container bg-gradient-to-br from-white/10 to-transparent backdrop-blur-[10px] rounded-[20px] border border-white/20 shadow-[0_0px_20px_0_rgba(0,0,0,0.37)]'>
+    <header className='sticky top-0 z-50 shadow-gray-600 mt-4 container bg-gradient-to-br from-white/10 to-transparent backdrop-blur-[10px] rounded-[20px] border border-white/50 shadow-[0_0px_20px_0_rgba(0,0,0,0.37)]'>
         <div className='py-2' ref={menuRef}>
             <div className="container">
                 <div className='flex items-center justify-between cursor-pointer'>
@@ -81,11 +81,11 @@ const Navbar = () => {
                                                 <a href={menu.link} className='py-[10px] px-[30px] block uppercase font-semibold text-white hover:font-[800]'>{menu.name}</a>
                                             </li>
                                         ))}
-                                        <li className='flex mt-4 gap-3'>
-                                            <a href="https://www.linkedin.com/company/provision-innovations/" className='mr-3 md:text-2xl text-lg text-object hover:text-mainbg'><FaLinkedin/></a>
-                                            <a href="https://x.com/ProVision_Inn" className='mr-3 md:text-2xl text-lg text-object hover:text-mainbg'><FaTwitter/></a>
-                                            <a href="https://www.instagram.com/provision_innovations/" className='mr-3 md:text-2xl text-lg text-object hover:text-mainbg'><FaInstagram/></a>
-                                            <a href="https://www.reddit.com/user/provisioninnovations/" className='mr-3 md:text-2xl text-lg text-object hover:text-mainbg'><FaReddit/></a>
+                                        <li className='flex mt-4 gap-3 ml-7 lg:ml-0'>
+                                            <a href="https://www.linkedin.com/company/provision-innovations/" className='mr-3 text-2xl text-object hover:text-mainbg'><FaLinkedin/></a>
+                                            <a href="https://x.com/ProVision_Inn" className='mr-3 text-2xl text-object hover:text-mainbg'><FaTwitter/></a>
+                                            <a href="https://www.instagram.com/provision_innovations/" className='mr-3 text-2xl text-object hover:text-mainbg'><FaInstagram/></a>
+                                            <a href="https://www.reddit.com/user/provisioninnovations/" className='mr-3 text-2xl text-object hover:text-mainbg'><FaReddit/></a>
                                         </li>
                                     </ul>
                                 </nav>
